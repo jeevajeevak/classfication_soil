@@ -6,10 +6,7 @@ Welcome to the **SoilSense: Smart Crop Recommendation System** repository! This 
 
 - [Introduction](#introduction)
 - [Objectives](#objectives)
-- [Features](#features)
-- [Usage](#usage)
 - [Installation](#installation)
-- [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -39,21 +36,6 @@ The project aims to make smart agricultural decisions accessible to farmers, esp
 6. **Live Camera Integration**:
    - Allow users to capture live images of soil using their camera and upload them for classification and recommendations.
 
-## Features
-
-- **Real-Time Soil Type Classification**: Automatically classifies soil types from images using a trained deep learning model.
-- **Crop Recommendations**: Provides a list of recommended crops based on the classified soil type.
-- **Weather Data Integration**: Fetches current weather information (temperature, humidity, etc.) for the user's location to enhance crop suggestions.
-- **Simple and Intuitive UI**: A web-based interface to easily upload soil images and view the recommendations.
-- **Live Camera Support**: Users can take live pictures of soil and get recommendations instantly.
-- **Multi-Language Support**: The system supports multiple languages to cater to users from different regions.
-
-## Usage
-
-1. **Soil Type Classification**: Upload a soil image via the web interface. The system classifies the soil type and displays the result.
-2. **Crop Recommendations**: Based on the soil type, the system fetches crop recommendations, considering the weather data for the user’s location.
-3. **Weather Data**: Users can enter their city or location to receive up-to-date weather information that impacts crop growth.
-4. **Live Camera Integration**: Use your mobile or web camera to capture soil images directly for classification and recommendations.
 
 
 ## Installation
@@ -65,7 +47,7 @@ Follow these steps to set up and run the **SoilSense** system on your local mach
 Clone the repository and navigate into the project directory:
 
 ```bash
-git clone https://github.com/your-username/SoilSense.git
+git clone https://github.com/your-username/classification_soil.git
 cd SoilSense
 ```
 
@@ -116,29 +98,6 @@ http://127.0.0.1:5000
 You can upload a soil image and receive crop recommendations and weather information.
 
 ---
-
-## Technologies Used
-
-The **SoilSense** system is built using various technologies and frameworks to provide efficient soil classification and crop recommendation.
-
-- **Deep Learning Framework**: 
-  - **TensorFlow**: Used for building and training the convolutional neural network (CNN) model for soil classification.
-  - **Keras**: Provides high-level APIs for easy model building and training.
-
-- **Web Development**: 
-  - **Flask**: A lightweight Python web framework used for creating the web application.
-  - **HTML, CSS, JavaScript**: These technologies are used for building the user interface and frontend of the application.
-
-- **Weather API**: 
-  - **OpenWeatherMap API**: Used for fetching real-time weather data (temperature, humidity, etc.) to enhance crop recommendations based on weather conditions.
-
-- **Image Processing**: 
-  - **Keras/TensorFlow**: Used to process and classify soil images by feeding them into the pre-trained CNN model.
-
-- **Version Control**: 
-  - **Git**: For source code management and version control.
-  - **GitHub**: For hosting the project repository and collaboration.
-
 ---
 
 ## Contributing
